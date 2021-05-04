@@ -1,0 +1,86 @@
+/* font family:
+font-family: 'Zen Dots', cursive;
+font-family: 'Roboto', sans-serif;
+
+COLORS:
+
+
+
+*/
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.gradient{
+    background: #bdc3c7;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+/*navbar*/
+#logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    
+}
+.nav-link{
+    color: whitesmoke !important;
+    font-family: 'Zen Dots', cursive;
+    padding: 0 15px !important;
+}
+/*header*/
+header{
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/listening.jpg) center/cover fixed no-repeat;
+}
+.head1{
+    font-family: 'Zen Dots', cursive;
+    color: #fff;
+    margin-top: 2rem;
+}
+/*About*/
+.music{
+    font-family: 'Zen Dots', cursive;
+}
+.img-music{
+    width: 100%;
+    border: 3px double #2c3e50;
+    
+}
+hr{
+    border-style: dotted;
+    color: #bdc3c7;
+    border-width: thick;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+}
+p{
+    text-align: justify;
+}
+
+/*playlist*/
+
+.card-title{
+    font-family: 'Zen Dots', cursive;
+}
+
+/*subscribe*/
+
+#subscribe{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/sax.jpg) center/cover fixed no-repeat;
+}
+h1{
+    font-family: 'Zen Dots', cursive;
+}
+
+/*footer*/
+.icons{
+    color: black;
+    margin:2%;
+}
+.copy{
+    text-align: center !important;
+}
